@@ -83,13 +83,6 @@ Test-NetConnection -ComputerName 127.0.0.1 -Port 22
 
 ---
 
-## 📸 Screenshots to Include:
-- Rule for port 23 (Blocked)
-- Rule for port 22 (Allowed)
-- PowerShell output for both test commands
-- Full rule list view in firewall
-
----
 
 ## 📝 Extra Notes:
 - PowerShell's `Test-NetConnection` only works when a service is running on the port.
